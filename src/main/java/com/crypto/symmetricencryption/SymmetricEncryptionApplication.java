@@ -29,8 +29,7 @@ public class SymmetricEncryptionApplication implements CommandLineRunner {
 
     log.info("========= " + new MimeTypeConstants().getMimeType("xml"));
 
-    String metadata =
-        "{\"applicationrefid\":\"ref-id\", \"doctype\":\"doc-type\", \"username\":\"username\", \"retentionperiod\":\"1\", \"gdprflag\":\"true\"}";
+    String metadata = "some-metadata-string";
 
     String secretKeyString = crypto.generateSecretKeyWithBaseKey(UUID.randomUUID().toString());
     
