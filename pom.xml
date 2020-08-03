@@ -9,7 +9,7 @@
 		<version>2.3.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>uk.nhs.nhsbsa.symmetricencryption</groupId>
+	<groupId>com.example.symmetricencryption</groupId>
 	<artifactId>symmetric-encryption</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>symmetric-encryption</name>
