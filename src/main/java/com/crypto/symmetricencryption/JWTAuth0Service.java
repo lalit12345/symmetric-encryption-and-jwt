@@ -70,6 +70,6 @@ public class JWTAuth0Service {
 
     JWTAuth0Service auth0Service = new JWTAuth0Service();
 
-    auth0Service.createJwt("4DNGKyfLQ4s0/QW4Ynr925FjTjvRhq7tsLltv4vkxWk=");
+    auth0Service.createJwt("secret-key");
   }
 }
